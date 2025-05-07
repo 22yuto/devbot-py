@@ -5,7 +5,6 @@ from notion_client import Client
 from app.db import get_embeddings
 from app.logger import get_logger
 
-# ロガーの設定
 logger = get_logger(__name__)
 
 class NotionService:

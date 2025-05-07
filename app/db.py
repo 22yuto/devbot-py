@@ -8,7 +8,6 @@ from dotenv import load_dotenv, find_dotenv
 from app.logger import get_logger
 from app.utils.openai import get_embeddings
 
-# ロガーの設定
 logger = get_logger(__name__)
 
 dotenv_path = find_dotenv()

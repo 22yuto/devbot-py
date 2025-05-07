@@ -5,7 +5,6 @@ from app.services.notion import notion
 from app.logger import get_logger
 from app.utils.openai import generate_completion
 
-# ロガーの設定
 logger = get_logger(__name__)
 
 class ChatService:

@@ -5,10 +5,7 @@ from routers.router import router
 from dotenv import load_dotenv
 from app.logger import setup_logger, get_logger
 
-# 環境変数のロード
 load_dotenv()
-
-# ロギング設定
 setup_logger()
 logger = get_logger(__name__)
 
